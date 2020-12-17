@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: #b69c00;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+}
+
+.set {
+  margin: 10% auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.drum {
+  border: 10px solid rgb(8, 8, 48);
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  outline: 0;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 150px;
+
+  margin: 10px;
+  background-color: white;
+  flex-wrap: wrap;
+  justify-content: center;
+}
